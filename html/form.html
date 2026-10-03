@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup Form</title>
+  </head>
+  <body>
+    <nav aria-label="main navigation">
+      <a href="index.html" title="Go to the home page">Index</a>
+      <a href="form.html" title="Go to the signup form">Form</a>
+    </nav>
+    <!-- form content -->
+    <main>
+      <section>
+        <h1>Sign up</h1>
+        <p>Create an account to get started on your learning journey.</p>
+      </section>
+
+      <form>
+        <!-- email field section -->
+        <section>
+          <label for="email">Email</label><br />
+          <input
+            type="email"
+            name="email"
+            placeholder="john.doe@example.com"
+            required
+          />
+        </section>
+        <!-- first name field section -->
+        <section>
+          <label for="first-name">First name</label><br />
+          <input type="text" name="first-name" placeholder="John" required />
+        </section>
+        <!-- last name field section -->
+        <section>
+          <label for="last-name">Last name</label><br />
+          <input type="text" name="last-name" placeholder="Doe" required />
+        </section>
+        <!-- phone number field section -->
+        <section>
+          <label for="phone-number">Phone number</label><br />
+          <input type="tel" name="phone-number" placeholder="+1234567890" />
+        </section>
+        <!-- password field section -->
+        <section>
+          <label for="password">Password</label><br />
+          <input type="password" name="password" placeholder="*********" />
+        </section>
+        <!-- aggreement section -->
+        <section>
+          <p>
+            By clicking Create account, I agree to
+            <a href="#">Terms of Use</a> and acknowledge that I have read the
+            <a href="#">Privacy Policy.</a>
+          </p>
+        </section>
+        <!-- button section -->
+        <section>
+          <button>Create account</button>
+          <p>OR</p>
+          <button>Login with Google</button>
+        </section>
+      </form>
+    </main>
+  </body>
+</html>
